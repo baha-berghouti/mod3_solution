@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  color: brown;
+}
+a:hover{
+  color:rgb(71, 10, 10) ;
+}
+body{
+   background-color:white;
+}
+/****Header****/
+.navbar {
+    border: 0;
+    border-radius: 0;
+    background-color:#DFDFDF;
+    border-bottom: black 0.5px solid;
+    box-shadow:0 0 80px #595959;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand a h1 {
+    text-shadow: 3px 3px 3px #595959;
+    color: black;
+    margin-top: 0;
+    font-family: comic sans MS;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.navbar-header{
+  height: 100px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid black;
+   }
+.navbar-header button.navbar-toggle {
+        clear: both;
+        margin-top: -30px;
+      }
+.navbar-default .navbar-nav>li>a{
+  color: black;
+  text-align: center;
+  font-family: comic sans MS;
+  font-weight: bold;
+  font-size: 2em;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  background-color:#5C5C5C;
+  color: white;
+}
+.glyphicon-cutlery {
+color: black ;
+ }
+/*****Home Page*****/
+.text-center{ (/***Our Menu***/ )
+  font-weight: bold;
+  font-family: comic sans MS;
+  margin-bottom: 50px;
+  font-size: 3em;
+}
+h2{
+  text-shadow:2px 2px 2px darkgrey;
+}
+.col-xs-12 {
+  background-color:#DFDFDF;
+  color: black;
+  font-weight: bold;
+  font-family: comic sans MS;
+  margin-bottom: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 80px #595959;
+}
+.col-xs-12 h3 {
+  text-align: center;
+ font-size: 2.5em;
+}
+#main-content h2 a , #main-content h3 a { 
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 479px){ /******Super extra small devices****/
+  .navbar-brand a h1{
+    font-size: 10vw;
+    margin-top: 10px;
+  }
+}
